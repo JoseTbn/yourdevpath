@@ -24,8 +24,8 @@ export default function Home({posts}) {
       <div className="">
 {/* On map a travers Les post */}
         <div className=" text-4xl  text-bold text-white">
-          <div className=" bg-slate-600  py-6 sm:py-12 px-4 xl:px-0"> 
-          <div className="flex  mt-8 sm:mt-16"> 
+          <div className=" bg-slate-100  py-6 sm:py-12 px-4 xl:px-0"> 
+          <div className="lg:flex justify-center"> 
         {posts.map((post) => <PostCard post={post.node} key={post.title} />)}
           </div>
           </div>
